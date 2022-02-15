@@ -14,3 +14,7 @@ function setNormal (className, weight){
     document.querySelector (className).style.fontWeight=weight;
 }
 
+function clickRed(){
+    document.querySelector('.text').classList.toggle('textRed');
+}
+
