@@ -16,5 +16,11 @@ function clickRed(){
 }
 
 function playAudio(){
-    document.getElementById('#zvukovaStopa').play();
+    document.querySelector('#zvukovaStopa').play();
 }
+
+function stopAudio(){
+    document.querySelector('#zvukovaStopa').pause();
+}
+
+
