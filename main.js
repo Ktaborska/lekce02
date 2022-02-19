@@ -23,4 +23,17 @@ function stopAudio(){
     document.querySelector('#zvukovaStopa').pause();
 }
 
+function volumeHigh(){
+    document.querySelector('#zvukovaStopa').volume=1.0;
+}
+
+function volumeLow(){
+    document.querySelector('#zvukovaStopa').volume=0.5;
+}
+
+function mute(){
+    document.querySelector('#zvukovaStopa').volume=0;
+}
+
+
 
