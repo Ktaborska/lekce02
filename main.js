@@ -15,3 +15,6 @@ function clickRed(){
     document.querySelector('.text').classList.toggle('textRed');
 }
 
+function playAudio(){
+    document.getElementById('#zvukovaStopa').play();
+}
