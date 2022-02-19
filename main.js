@@ -36,6 +36,20 @@ function muteAudio(){
 }
 
 function replayAudio(){
-    document.querySelector('#zvukovaStopa').currentTime= 0;
+    document.querySelector('#zvukovaStopa').currentTime=0;
+}
+
+function clickBig(){
+    document.querySelector('.text').style.fontSize=fontSize + 1;
+}
+
+function clickBig(){
+    let velikost = parseInt(window.getComputedStyle(document.querySelector('.text')).fontSize)
+
+    console.log(velikost)
+
+    velikost++;
+
+    document.querySelector('.text').style.fontSize = velikost + 'px';
 }
 
