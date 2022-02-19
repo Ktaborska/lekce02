@@ -31,9 +31,11 @@ function volumeLow(){
     document.querySelector('#zvukovaStopa').volume=0.5;
 }
 
-function mute(){
+function muteAudio(){
     document.querySelector('#zvukovaStopa').volume=0;
 }
 
-
+function replayAudio(){
+    document.querySelector('#zvukovaStopa').currentTime= 0;
+}
 
